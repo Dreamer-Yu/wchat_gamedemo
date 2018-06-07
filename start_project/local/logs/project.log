@@ -1,0 +1,380 @@
+2018-06-06T07:05:46.877Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-06T07:05:46.884Z - normal: checking language setting...
+2018-06-06T07:05:46.884Z - normal: Language: zh
+2018-06-06T07:05:49.078Z - success: protocol editor-framework registered
+2018-06-06T07:05:49.079Z - success: protocol app registered
+2018-06-06T07:05:49.079Z - success: protocol theme registered
+2018-06-06T07:05:49.079Z - success: protocol packages registered
+2018-06-06T07:05:49.079Z - success: protocol unpack registerred
+2018-06-06T07:05:49.079Z - success: protocol disable-commonjs registerred
+2018-06-06T07:05:49.457Z - normal: connected!
+2018-06-06T07:05:49.467Z - normal: Check project D:\wx\start_project
+2018-06-06T07:05:49.504Z - normal: Initializing Cocos2d
+2018-06-06T07:05:49.794Z - normal: Initializing Asset Database
+2018-06-06T07:05:49.839Z - success: protocol uuid registerred
+2018-06-06T07:05:49.839Z - success: protocol db registerred
+2018-06-06T07:05:49.839Z - success: protocol thumbnail registerred
+2018-06-06T07:05:49.840Z - normal: Loading editor/builtin packages
+2018-06-06T07:05:49.864Z - success: anysdk loaded
+2018-06-06T07:05:50.021Z - success: assets loaded
+2018-06-06T07:05:50.024Z - success: builder loaded
+2018-06-06T07:05:50.028Z - success: cocos-analytics loaded
+2018-06-06T07:05:50.031Z - success: console loaded
+2018-06-06T07:05:50.077Z - success: fb-instant-games loaded
+2018-06-06T07:05:50.081Z - success: hierarchy loaded
+2018-06-06T07:05:50.085Z - success: inspector loaded
+2018-06-06T07:05:50.092Z - success: keystore loaded
+2018-06-06T07:05:50.096Z - success: node-library loaded
+2018-06-06T07:05:50.098Z - success: package-asset loaded
+2018-06-06T07:05:50.101Z - success: preferences loaded
+2018-06-06T07:05:50.103Z - success: project-exporter loaded
+2018-06-06T07:05:50.122Z - success: project-importer loaded
+2018-06-06T07:05:50.125Z - success: project-settings loaded
+2018-06-06T07:05:50.127Z - success: ui-kit loaded
+2018-06-06T07:05:50.129Z - success: ui-grid loaded
+2018-06-06T07:05:50.134Z - success: scene loaded
+2018-06-06T07:05:50.135Z - success: sprite-editor loaded
+2018-06-06T07:05:50.139Z - success: store loaded
+2018-06-06T07:05:50.144Z - success: timeline loaded
+2018-06-06T07:05:50.145Z - normal: Loading builtin packages
+2018-06-06T07:05:50.147Z - success: asset-db-debugger loaded
+2018-06-06T07:05:50.149Z - success: code-editor loaded
+2018-06-06T07:05:50.150Z - success: color-picker loaded
+2018-06-06T07:05:50.152Z - success: package-manager loaded
+2018-06-06T07:05:50.159Z - success: sdkbox loaded
+2018-06-06T07:05:50.162Z - success: tester loaded
+2018-06-06T07:05:50.164Z - success: ui-kit-preview-extra loaded
+2018-06-06T07:05:50.166Z - success: ui-kit-preview loaded
+2018-06-06T07:05:50.168Z - success: ui-tree loaded
+2018-06-06T07:05:51.547Z - normal: Initializing project D:\wx\start_project
+2018-06-06T07:05:51.553Z - normal: Loading packages
+2018-06-06T07:05:51.560Z - normal: Watching packages
+2018-06-06T07:05:51.577Z - normal: Run Application
+2018-06-06T07:05:52.296Z - success: preview server running at http://localhost:7456
+2018-06-06T07:05:58.228Z - normal: 1.9.1
+2018-06-06T07:05:59.201Z - warn: The 'type' attribute of 'gameover.yourScore' is undefined when loading script
+2018-06-06T07:57:34.512Z - failed: load script [D:\wx\start_project\temp\quick-scripts\assets\script\play.js] failed : ReferenceError: Button is not defined
+    at __define (D:\wx\start_project\temp\quick-scripts\assets\script\play.js:38:19)
+    at D:\wx\start_project\temp\quick-scripts\assets\script\play.js:59:13
+    at Object.<anonymous> (D:\wx\start_project\temp\quick-scripts\assets\script\play.js:66:11)
+    at Object.<anonymous> (D:\wx\start_project\temp\quick-scripts\assets\script\play.js:69:3)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+2018-06-06T08:00:19.115Z - error: scene 没有保存，请先保存相关信息再进行构建。
+    at Editor.Ipc.sendToPanel (D:\coco\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:14928)
+    at EventEmitter.ipcRenderer.on.n (D:\coco\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:4493)
+    at emitMany (events.js:127:13)
+    at EventEmitter.emit (events.js:204:7)
+2018-06-06T08:00:49.871Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\wx\\start_project\\build",
+  "debug": false,
+  "dest": "D:\\wx\\start_project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "1b3298ba-b604-4fc9-809d-59e2b12bfd1b",
+    "fb718cbf-da42-4e74-8f10-f5990e48008f"
+  ],
+  "sourceMaps": false,
+  "startScene": "1b3298ba-b604-4fc9-809d-59e2b12bfd1b",
+  "template": "link",
+  "title": "start",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx4abff451d12d7e8d",
+    "isSubdomain": false,
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "b40993ae-fab6-4d",
+  "zipCompressJs": true,
+  "project": "D:\\wx\\start_project",
+  "projectName": "start",
+  "debugBuildWorker": false
+}
+2018-06-06T08:00:49.874Z - normal: Building D:\wx\start_project
+2018-06-06T08:00:49.874Z - normal: Destination D:\wx\start_project\build\wechatgame
+2018-06-06T08:00:50.512Z - normal: Delete D:\wx\start_project\build\wechatgame\**\*
+2018-06-06T08:00:54.147Z - normal: Compiled project javascript file successfully
+2018-06-06T08:00:54.147Z - normal: Start building assets
+2018-06-06T08:00:54.147Z - normal: Start spawn build-worker
+2018-06-06T08:00:55.397Z - normal: Finish spawn build-worker
+2018-06-06T08:00:55.397Z - normal: Start init build-worker
+2018-06-06T08:00:59.016Z - normal: 1.9.1
+2018-06-06T08:00:59.115Z - normal: Finish init build-worker
+2018-06-06T08:00:59.115Z - normal: Start build-assets in worker
+2018-06-06T08:00:59.784Z - normal: Finish build-assets in worker
+2018-06-06T08:00:59.797Z - normal: Finish building assets
+2018-06-06T08:00:59.815Z - normal: Start building raw assets
+2018-06-06T08:00:59.816Z - normal: Start building plugin scripts
+2018-06-06T08:00:59.851Z - normal: Finish building raw assets
+2018-06-06T08:00:59.903Z - normal: Generating main.js from D:\coco\CocosCreator\resources\static\build-templates\shares\main.js
+2018-06-06T08:01:00.197Z - normal: Built to "D:\wx\start_project\build\wechatgame" successfully
+2018-06-06T08:01:03.738Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-06T08:01:03.738Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-06T08:01:06.633Z - normal: Initializing...
+
+2018-06-06T08:01:06.660Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-06T08:01:07.720Z - normal: starting ide...
+
+2018-06-06T08:01:15.615Z - normal: IDE server has started, listening on http://127.0.0.1:31089
+
+2018-06-06T08:01:15.662Z - normal: initialization finished
+
+2018-06-06T08:01:16.509Z - normal: open IDE success
+
+2018-06-06T09:42:04.162Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\wx\\start_project\\build",
+  "debug": false,
+  "dest": "D:\\wx\\start_project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "1b3298ba-b604-4fc9-809d-59e2b12bfd1b",
+    "fb718cbf-da42-4e74-8f10-f5990e48008f"
+  ],
+  "sourceMaps": false,
+  "startScene": "1b3298ba-b604-4fc9-809d-59e2b12bfd1b",
+  "template": "link",
+  "title": "start",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx4abff451d12d7e8d",
+    "isSubdomain": false,
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "b40993ae-fab6-4d",
+  "zipCompressJs": true,
+  "project": "D:\\wx\\start_project",
+  "projectName": "start",
+  "debugBuildWorker": false
+}
+2018-06-06T09:42:04.167Z - normal: Building D:\wx\start_project
+2018-06-06T09:42:04.168Z - normal: Destination D:\wx\start_project\build\wechatgame
+2018-06-06T09:42:04.171Z - normal: Delete D:\wx\start_project\build\wechatgame\**\*
+2018-06-06T09:42:07.530Z - normal: Compiled project javascript file successfully
+2018-06-06T09:42:07.531Z - normal: Start building assets
+2018-06-06T09:42:07.531Z - normal: Start spawn build-worker
+2018-06-06T09:42:08.793Z - normal: Finish spawn build-worker
+2018-06-06T09:42:08.794Z - normal: Start init build-worker
+2018-06-06T09:42:12.444Z - normal: 1.9.1
+2018-06-06T09:42:12.606Z - normal: Finish init build-worker
+2018-06-06T09:42:12.606Z - normal: Start build-assets in worker
+2018-06-06T09:42:13.367Z - normal: Finish build-assets in worker
+2018-06-06T09:42:13.380Z - normal: Finish building assets
+2018-06-06T09:42:13.398Z - normal: Start building raw assets
+2018-06-06T09:42:13.400Z - normal: Start building plugin scripts
+2018-06-06T09:42:13.433Z - normal: Finish building raw assets
+2018-06-06T09:42:13.463Z - normal: Generating main.js from D:\coco\CocosCreator\resources\static\build-templates\shares\main.js
+2018-06-06T09:42:13.727Z - normal: Built to "D:\wx\start_project\build\wechatgame" successfully
+2018-06-06T09:42:15.120Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-06T09:42:15.121Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-06T09:42:16.710Z - normal: Initializing...
+
+2018-06-06T09:42:16.726Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-06T09:42:17.766Z - normal: starting ide...
+
+2018-06-06T09:42:24.641Z - normal: IDE server has started, listening on http://127.0.0.1:58142
+
+2018-06-06T09:42:24.649Z - normal: initialization finished
+
+2018-06-06T09:42:25.172Z - normal: open IDE success
+
+2018-06-06T09:55:56.284Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "D:\\wx\\start_project\\build",
+  "debug": false,
+  "dest": "D:\\wx\\start_project\\build\\wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.start_project",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "scenes": [
+    "1b3298ba-b604-4fc9-809d-59e2b12bfd1b",
+    "fb718cbf-da42-4e74-8f10-f5990e48008f"
+  ],
+  "sourceMaps": false,
+  "startScene": "1b3298ba-b604-4fc9-809d-59e2b12bfd1b",
+  "template": "link",
+  "title": "start",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx4abff451d12d7e8d",
+    "isSubdomain": false,
+    "orientation": "landscape",
+    "subContext": ""
+  },
+  "xxteaKey": "b40993ae-fab6-4d",
+  "zipCompressJs": true,
+  "project": "D:\\wx\\start_project",
+  "projectName": "start",
+  "debugBuildWorker": false
+}
+2018-06-06T09:55:56.287Z - normal: Building D:\wx\start_project
+2018-06-06T09:55:56.287Z - normal: Destination D:\wx\start_project\build\wechatgame
+2018-06-06T09:55:56.289Z - normal: Delete D:\wx\start_project\build\wechatgame\**\*
+2018-06-06T09:55:59.677Z - normal: Compiled project javascript file successfully
+2018-06-06T09:55:59.678Z - normal: Start building assets
+2018-06-06T09:55:59.678Z - normal: Start spawn build-worker
+2018-06-06T09:56:00.769Z - normal: Finish spawn build-worker
+2018-06-06T09:56:00.769Z - normal: Start init build-worker
+2018-06-06T09:56:03.872Z - normal: 1.9.1
+2018-06-06T09:56:04.021Z - normal: Finish init build-worker
+2018-06-06T09:56:04.021Z - normal: Start build-assets in worker
+2018-06-06T09:56:04.576Z - normal: Finish build-assets in worker
+2018-06-06T09:56:04.595Z - normal: Finish building assets
+2018-06-06T09:56:04.612Z - normal: Start building raw assets
+2018-06-06T09:56:04.613Z - normal: Start building plugin scripts
+2018-06-06T09:56:04.640Z - normal: Finish building raw assets
+2018-06-06T09:56:04.667Z - normal: Generating main.js from D:\coco\CocosCreator\resources\static\build-templates\shares\main.js
+2018-06-06T09:56:04.946Z - normal: Built to "D:\wx\start_project\build\wechatgame" successfully
+2018-06-06T09:56:10.397Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-06T09:56:10.397Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-06T09:56:11.635Z - normal: Initializing...
+
+2018-06-06T09:56:11.648Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-06T09:56:11.696Z - normal: IDE server has started, listening on http://127.0.0.1:58142
+initialization finished
+
+2018-06-06T09:56:11.899Z - normal: open IDE success
+
+2018-06-06T09:56:25.701Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-06T09:56:25.702Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-06T09:56:26.817Z - normal: Initializing...
+
+2018-06-06T09:56:26.831Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-06T09:56:26.877Z - normal: IDE server has started, listening on http://127.0.0.1:58142
+
+2018-06-06T09:56:26.877Z - normal: initialization finished
+
+2018-06-06T09:56:27.040Z - normal: open IDE success
+
+2018-06-06T09:56:37.646Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-06T09:56:37.646Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-06T09:56:38.692Z - normal: Initializing...
+
+2018-06-06T09:56:38.703Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-06T09:56:39.725Z - normal: starting ide...
+
+2018-06-06T09:56:44.427Z - normal: IDE server has started, listening on http://127.0.0.1:62587
+
+2018-06-06T09:56:44.433Z - normal: initialization finished
+
+2018-06-06T09:56:44.841Z - normal: open IDE success
+
+2018-06-06T09:59:51.298Z - info: shutdown preview server
