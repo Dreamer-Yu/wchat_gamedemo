@@ -60,12 +60,16 @@ cc.Class({
                 }
             });
         });
+    },
+    toRankList: function toRankList() {
+        cc.director.loadScene("rank");
     }
     // start () {
 
     // },
 
     // update (dt) {},
+
 });
 
 cc._RF.pop();

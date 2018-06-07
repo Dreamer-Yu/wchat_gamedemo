@@ -1,6 +1,6 @@
 {
     "deviceOrientation": "landscape",
-    "subContext": "",
+    "subContext": "wx-open-data-project",
     "networkTimeout": {
         "request": 5000,
         "connectSocket": 5000,

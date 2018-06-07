@@ -73,7 +73,7 @@ cc.Class({
 
     unvis: function unvis() {
         // this.node.opacity=0;
-        this.node.destroy();
+        //this.node.destroy();
     },
     update: function update(dt) {
         // 根据当前加速度方向每帧更新速度

@@ -34,7 +34,7 @@
     "appid": "wx4abff451d12d7e8d",
     "isSubdomain": false,
     "orientation": "landscape",
-    "subContext": ""
+    "subContext": "wx-open-data-project"
   },
   "xxteaKey": "b40993ae-fab6-4d",
   "zipCompressJs": true

@@ -52,6 +52,9 @@ cc.Class({
                     } 
                 })
             });
+    },
+    toRankList(){
+        cc.director.loadScene("rank");
     }
     // start () {
 
