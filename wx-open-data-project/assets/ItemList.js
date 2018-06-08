@@ -29,14 +29,14 @@ cc.Class({
         
     },
     gt: function (data){
-        console.log("%o",data);
+        //console.log("%o",data);
         for(var i= 0;i<data.length;i++){
             var nit = cc.instantiate(this.items);
-            console.log(data[i]);
+            //console.log("%o",data[i]);
             this.content.addChild(nit);
             nit.getComponent('ItemTemplate').init({
                 id: 1,
-                itemName: data[i].nickname,
+                itemName: data[i].nickname+" "+data[i].KVDataList[0].value
             });
             
         }
@@ -48,25 +48,12 @@ cc.Class({
             keyList:["score"],
             success:function(ugd){
                 let ddd = ugd.data;
-                //console.log("%o",ddd);
-                //console.log("%o",bb.gt);
                 bb.gt(ddd);
                 
             }
         });
     },
     start () {
-        // wx.getFriendCloudStorage({
-        //     keyList:["score"],
-        //     success:function(ugd){
-        //         let ddd = ugd.data;
-        //         for(let dc in ddd){
-        //             console.log(dc.nickname);
-        //         }
-                
-        //     }
-        // });
-        //this.gt();
         
     },
 

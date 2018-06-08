@@ -25,12 +25,12 @@ cc.Class({
 
     _show () {
         this.ItemList.getComponent("ItemList").showRankList();
-        console.log("111");
         let moveTo = cc.moveTo(0.5, 0, 73);
         this.display.runAction(moveTo);
     },
 
     _hide () {
+        console.log("hide");
         let moveTo = cc.moveTo(0.5, 0, 1000);
         this.display.runAction(moveTo);
     }

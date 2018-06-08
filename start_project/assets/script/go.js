@@ -16,29 +16,29 @@ cc.Class({
 
     // LIFE-CYCLE CALLBACKS:
 
-    onLoad () {},
-    toScene:function(){
+    onLoad() { },
+    toScene: function () {
         cc.director.loadScene("game")
     },
-    share:function(){ //分享按钮
-            cc.log("点击分享按钮");
-            // this.playBtnSound();
-            //主动拉起分享接口
-            cc.loader.loadRes("texture/share",function(err,data){
-                wx.shareAppMessage({
-                    title: "不怕，就来PK！",
-                    imageUrl: data.url,
-                    success(res){
-                        console.log("转发成功!!!")
-                        // common.diamond += 20;
-                    },
-                    fail(res){
-                        console.log("转发失败!!!")
-                    } 
-                })
-            });
+    share: function () { //分享按钮
+        cc.log("点击分享按钮");
+        // this.playBtnSound();
+        //主动拉起分享接口
+        cc.loader.loadRes("texture/share", function (err, data) {
+            wx.shareAppMessage({
+                title: "不怕，就来PK！",
+                imageUrl: data.url,
+                success(res) {
+                    console.log("转发成功!!!")
+                    // common.diamond += 20;
+                },
+                fail(res) {
+                    console.log("转发失败!!!")
+                }
+            })
+        });
     },
-    toRankList(){
+    toRankList() {
         cc.director.loadScene("rank");
     }
     // start () {

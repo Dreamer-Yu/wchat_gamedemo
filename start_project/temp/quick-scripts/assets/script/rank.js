@@ -30,7 +30,7 @@ cc.Class({
         this.tex = new cc.Texture2D();
     },
     onClick: function onClick() {
-        console.log(com.score);
+
         wx.setUserCloudStorage({
             KVDataList: [{ key: "score", value: com.score.toString() }],
             success: function success() {

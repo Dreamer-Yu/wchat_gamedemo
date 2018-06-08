@@ -7,28 +7,28 @@
 // Learn life-cycle callbacks:
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-var com=require("Common");
+var com = require("Common");
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        display:cc.Sprite
+        display: cc.Sprite
     },
 
     // LIFE-CYCLE CALLBACKS:
 
     // onLoad () {},
 
-    start () {
+    start() {
         this._isShow = false;
         this.tex = new cc.Texture2D();
     },
 
-    onClick () {
-        console.log(com.score);
+    onClick() {
+
         wx.setUserCloudStorage({
-            KVDataList:[{key:"score",value:com.score.toString()}],
-            success:function(){
+            KVDataList: [{ key: "score", value: com.score.toString() }],
+            success: function () {
                 console.log("set success");
                 this._isShow = !this._isShow;
                 // 发消息给子域
@@ -37,10 +37,10 @@ cc.Class({
                 })
             }
         });
-        
+
     },
 
-    _updaetSubDomainCanvas () {
+    _updaetSubDomainCanvas() {
         if (!this.tex) {
             return;
         }
@@ -51,7 +51,7 @@ cc.Class({
         this.display.spriteFrame = new cc.SpriteFrame(this.tex);
     },
 
-    update () {
+    update() {
         this._updaetSubDomainCanvas();
     }
 

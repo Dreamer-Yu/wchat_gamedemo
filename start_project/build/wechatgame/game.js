@@ -5,25 +5,4 @@ require('libs/wx-downloader.js');
 wxDownloader.REMOTE_SERVER_ROOT = "";
 wxDownloader.SUBCONTEXT_ROOT = "";
 require('src/settings');
-<<<<<<< HEAD
 require('main');
-=======
-require('main');
-wx.showShareMenu();
-//监听右上角的分享调用 
-cc.loader.loadRes("texture/PurpleMonster", function (err, data) {
-  wx.onShareAppMessage(function (res) {
-    return {
-      title: "不怕，就来PK！",
-      imageUrl: data.url,
-      success(res) {
-        console.log("转发成功!!!")
-        //common.diamond += 20;
-      },
-      fail(res) {
-        console.log("转发失败!!!")
-      }
-    }
-  })
-});
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2

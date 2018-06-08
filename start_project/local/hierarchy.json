@@ -1,16 +1,16 @@
 {
   "item-states": [
     {
-      "folded": false,
-<<<<<<< HEAD
-      "id": "7e3F6shAJK0J2qMWmvgf7a"
+      "folded": true,
+      "id": "0enOiqOyJD85t2VqW40lYX"
+    },
+    {
+      "folded": true,
+      "id": "9dPiaGRVZEZ7WuK5cwqP9k"
     },
     {
       "folded": false,
-      "id": "f8MqxnEyhGMrgiHQ6ZD97C"
-=======
-      "id": "6ew9mqh3JO/51RNYam0zh/"
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+      "id": "00MrIVcZtDE5QGzsLl/1rj"
     }
   ]
 }

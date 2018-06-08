@@ -5,17 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-<<<<<<< HEAD
       "x": -8,
       "y": -8,
-      "width": 1382,
-      "height": 744,
-=======
-      "x": 44,
-      "y": 20,
-      "width": 1239,
-      "height": 784,
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+      "width": 1552,
+      "height": 840,
       "layout": {
         "children": [
           {
@@ -25,35 +18,23 @@
                 "children": [
                   "hierarchy"
                 ],
-<<<<<<< HEAD
-                "height": 312,
-=======
-                "height": 331.7250061035156,
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+                "height": 361.5874938964844,
                 "type": "panel",
-                "width": 229
+                "width": 257.125
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-<<<<<<< HEAD
-                "height": 301,
-=======
-                "height": 320.2749938964844,
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+                "height": 349.6125183105469,
                 "type": "panel",
-                "width": 229
+                "width": 257.125
               }
             ],
-<<<<<<< HEAD
-            "height": 616,
-=======
-            "height": 655,
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+            "height": 714.2000122070312,
             "type": "dock-v",
-            "width": 229
+            "width": 257.125
           },
           {
             "children": [
@@ -64,39 +45,23 @@
                     "children": [
                       "scene"
                     ],
-<<<<<<< HEAD
-                    "height": 301,
+                    "height": 349.0500183105469,
                     "type": "panel",
-                    "width": 551.984375
-=======
-                    "height": 320.2749938964844,
-                    "type": "panel",
-                    "width": 496.20001220703125
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+                    "width": 625.7250366210938
                   },
                   {
                     "active": 0,
                     "children": [
                       "node-library"
                     ],
-<<<<<<< HEAD
-                    "height": 301,
-=======
-                    "height": 320.2749938964844,
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+                    "height": 349.0500183105469,
                     "type": "panel",
-                    "width": 228.984375
+                    "width": 257.3625183105469
                   }
                 ],
-<<<<<<< HEAD
-                "height": 301,
+                "height": 349.0500183105469,
                 "type": "dock-h",
-                "width": 783.984375
-=======
-                "height": 320.2749938964844,
-                "type": "dock-h",
-                "width": 703.2000122070312
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+                "width": 886.0875244140625
               },
               {
                 "active": 0,
@@ -104,38 +69,23 @@
                   "console",
                   "timeline"
                 ],
-<<<<<<< HEAD
-                "height": 312,
+                "height": 362.1499938964844,
                 "type": "panel",
-                "width": 783.984375
+                "width": 886.0875244140625
               }
             ],
-            "height": 616,
+            "height": 714.2000122070312,
             "type": "dock-v",
-            "width": 783.984375
-=======
-                "height": 331.7250061035156,
-                "type": "panel",
-                "width": 703.2000122070312
-              }
-            ],
-            "height": 655,
-            "type": "dock-v",
-            "width": 703.2000122070312
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+            "width": 886.0875244140625
           },
           {
             "active": 0,
             "children": [
               "inspector"
             ],
-<<<<<<< HEAD
-            "height": 616,
-=======
-            "height": 655,
->>>>>>> 8ea7a1499c5fb6b716a8e2a87343fcab4bfbe0e2
+            "height": 714.2000122070312,
             "type": "panel",
-            "width": 341
+            "width": 383.1750183105469
           }
         ],
         "type": "dock-h"
@@ -171,10 +121,10 @@
       "height": 545
     },
     "builder": {
-      "x": 500,
+      "x": 305,
       "y": 24,
-      "width": 516,
-      "height": 736
+      "width": 519,
+      "height": 738
     },
     "anysdk": {
       "x": 174,
