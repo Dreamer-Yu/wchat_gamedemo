@@ -25,11 +25,18 @@ cc.Class({
     },
 
     onClick () {
-        this._isShow = !this._isShow;
-        // 发消息给子域
-        wx.postMessage({
-            message: this._isShow ? 'Show' : 'Hide'
-        })
+        wx.setUserCloudStorage({
+            KVDataList:[{key:"score",value:"123"}],
+            success:function(){
+                console.log("set success");
+                this._isShow = !this._isShow;
+                // 发消息给子域
+                wx.postMessage({
+                    message: this._isShow ? 'Show' : 'Hide'
+                })
+            }
+        });
+        
     },
 
     _updaetSubDomainCanvas () {
