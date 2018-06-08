@@ -1,65 +1,66 @@
-2018-06-08T02:51:10.017Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-08T02:51:10.022Z - normal: checking language setting...
-2018-06-08T02:51:10.023Z - normal: Language: zh
-2018-06-08T02:51:11.073Z - success: protocol editor-framework registered
-2018-06-08T02:51:11.074Z - success: protocol app registered
-2018-06-08T02:51:11.074Z - success: protocol theme registered
-2018-06-08T02:51:11.074Z - success: protocol packages registered
-2018-06-08T02:51:11.075Z - success: protocol unpack registerred
-2018-06-08T02:51:11.075Z - success: protocol disable-commonjs registerred
-2018-06-08T02:51:11.331Z - normal: connected!
-2018-06-08T02:51:11.336Z - normal: Check project /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project
-2018-06-08T02:51:11.339Z - normal: Initializing Cocos2d
-2018-06-08T02:51:11.598Z - normal: Initializing Asset Database
-2018-06-08T02:51:11.641Z - success: protocol uuid registerred
-2018-06-08T02:51:11.642Z - success: protocol db registerred
-2018-06-08T02:51:11.642Z - success: protocol thumbnail registerred
-2018-06-08T02:51:11.642Z - normal: Loading editor/builtin packages
-2018-06-08T02:51:11.667Z - success: anysdk loaded
-2018-06-08T02:51:11.823Z - success: assets loaded
-2018-06-08T02:51:11.828Z - success: builder loaded
-2018-06-08T02:51:11.832Z - success: cocos-analytics loaded
-2018-06-08T02:51:11.838Z - success: console loaded
-2018-06-08T02:51:11.893Z - success: fb-instant-games loaded
-2018-06-08T02:51:11.899Z - success: hierarchy loaded
-2018-06-08T02:51:11.905Z - success: inspector loaded
-2018-06-08T02:51:11.907Z - success: keystore loaded
-2018-06-08T02:51:11.916Z - success: node-library loaded
-2018-06-08T02:51:11.920Z - success: package-asset loaded
-2018-06-08T02:51:11.922Z - success: preferences loaded
-2018-06-08T02:51:11.926Z - success: project-exporter loaded
-2018-06-08T02:51:11.947Z - success: project-importer loaded
-2018-06-08T02:51:11.951Z - success: project-settings loaded
-2018-06-08T02:51:11.957Z - success: ui-kit loaded
-2018-06-08T02:51:11.963Z - success: ui-grid loaded
-2018-06-08T02:51:11.968Z - success: scene loaded
-2018-06-08T02:51:11.970Z - success: sprite-editor loaded
-2018-06-08T02:51:11.976Z - success: store loaded
-2018-06-08T02:51:11.984Z - success: timeline loaded
-2018-06-08T02:51:11.985Z - normal: Loading builtin packages
-2018-06-08T02:51:11.990Z - success: asset-db-debugger loaded
-2018-06-08T02:51:11.992Z - success: color-picker loaded
-2018-06-08T02:51:11.997Z - success: package-manager loaded
-2018-06-08T02:51:12.003Z - success: sdkbox loaded
-2018-06-08T02:51:12.010Z - success: tester loaded
-2018-06-08T02:51:12.015Z - success: ui-kit-preview-extra loaded
-2018-06-08T02:51:12.019Z - success: ui-kit-preview loaded
-2018-06-08T02:51:12.023Z - success: ui-tree loaded
-2018-06-08T02:51:13.292Z - normal: Initializing project /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project
-2018-06-08T02:51:13.295Z - normal: Loading packages
-2018-06-08T02:51:13.304Z - normal: Watching packages
-2018-06-08T02:51:13.319Z - normal: Run Application
-2018-06-08T02:51:13.967Z - success: preview server running at http://localhost:7456
-2018-06-08T02:51:20.524Z - normal: 1.9.1
-2018-06-08T02:51:32.799Z - normal: Start building with options : {
+2018-06-08T08:00:04.886Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-08T08:00:04.894Z - normal: checking language setting...
+2018-06-08T08:00:04.895Z - normal: Language: zh
+2018-06-08T08:00:07.830Z - success: protocol editor-framework registered
+2018-06-08T08:00:07.830Z - success: protocol app registered
+2018-06-08T08:00:07.830Z - success: protocol theme registered
+2018-06-08T08:00:07.830Z - success: protocol packages registered
+2018-06-08T08:00:07.831Z - success: protocol unpack registerred
+2018-06-08T08:00:07.831Z - success: protocol disable-commonjs registerred
+2018-06-08T08:00:08.077Z - normal: connected!
+2018-06-08T08:00:08.085Z - normal: Check project D:\wx\wchat_gamedemo\start_project
+2018-06-08T08:00:08.114Z - normal: Initializing Cocos2d
+2018-06-08T08:00:08.435Z - normal: Initializing Asset Database
+2018-06-08T08:00:08.576Z - success: protocol uuid registerred
+2018-06-08T08:00:08.576Z - success: protocol db registerred
+2018-06-08T08:00:08.576Z - success: protocol thumbnail registerred
+2018-06-08T08:00:08.576Z - normal: Loading editor/builtin packages
+2018-06-08T08:00:08.629Z - success: anysdk loaded
+2018-06-08T08:00:08.805Z - success: assets loaded
+2018-06-08T08:00:08.808Z - success: builder loaded
+2018-06-08T08:00:08.812Z - success: cocos-analytics loaded
+2018-06-08T08:00:08.816Z - success: console loaded
+2018-06-08T08:00:08.865Z - success: fb-instant-games loaded
+2018-06-08T08:00:08.870Z - success: hierarchy loaded
+2018-06-08T08:00:08.882Z - success: inspector loaded
+2018-06-08T08:00:08.884Z - success: keystore loaded
+2018-06-08T08:00:08.887Z - success: node-library loaded
+2018-06-08T08:00:08.889Z - success: package-asset loaded
+2018-06-08T08:00:08.893Z - success: preferences loaded
+2018-06-08T08:00:08.895Z - success: project-exporter loaded
+2018-06-08T08:00:08.917Z - success: project-importer loaded
+2018-06-08T08:00:08.920Z - success: project-settings loaded
+2018-06-08T08:00:08.923Z - success: ui-kit loaded
+2018-06-08T08:00:08.961Z - success: ui-grid loaded
+2018-06-08T08:00:08.977Z - success: scene loaded
+2018-06-08T08:00:08.983Z - success: sprite-editor loaded
+2018-06-08T08:00:08.997Z - success: store loaded
+2018-06-08T08:00:09.054Z - success: timeline loaded
+2018-06-08T08:00:09.055Z - normal: Loading builtin packages
+2018-06-08T08:00:09.065Z - success: asset-db-debugger loaded
+2018-06-08T08:00:09.070Z - success: code-editor loaded
+2018-06-08T08:00:09.107Z - success: color-picker loaded
+2018-06-08T08:00:09.121Z - success: package-manager loaded
+2018-06-08T08:00:09.154Z - success: sdkbox loaded
+2018-06-08T08:00:09.166Z - success: tester loaded
+2018-06-08T08:00:09.174Z - success: ui-kit-preview-extra loaded
+2018-06-08T08:00:09.181Z - success: ui-kit-preview loaded
+2018-06-08T08:00:09.186Z - success: ui-tree loaded
+2018-06-08T08:00:10.704Z - normal: Initializing project D:\wx\wchat_gamedemo\start_project
+2018-06-08T08:00:10.710Z - normal: Loading packages
+2018-06-08T08:00:10.717Z - normal: Watching packages
+2018-06-08T08:00:10.752Z - normal: Run Application
+2018-06-08T08:00:12.893Z - success: preview server running at http://localhost:7456
+2018-06-08T08:00:19.872Z - normal: 1.9.1
+2018-06-08T08:01:20.565Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build",
+  "buildPath": "D:\\wx\\wchat_gamedemo\\start_project\\build",
   "debug": false,
-  "dest": "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame",
+  "dest": "D:\\wx\\wchat_gamedemo\\start_project\\build\\wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [],
@@ -111,37 +112,74 @@
   },
   "xxteaKey": "b40993ae-fab6-4d",
   "zipCompressJs": true,
-  "project": "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project",
+  "project": "D:\\wx\\wchat_gamedemo\\start_project",
   "projectName": "start",
   "debugBuildWorker": false
 }
-2018-06-08T02:51:32.803Z - normal: Building /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project
-2018-06-08T02:51:32.803Z - normal: Destination /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame
-2018-06-08T02:51:33.339Z - normal: Delete /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame/**/*
-2018-06-08T02:52:48.752Z - normal: Compiled project javascript file successfully
-2018-06-08T02:52:48.755Z - normal: Start building assets
-2018-06-08T02:52:48.755Z - normal: Start spawn build-worker
-2018-06-08T02:52:49.744Z - normal: Finish spawn build-worker
-2018-06-08T02:52:49.744Z - normal: Start init build-worker
-2018-06-08T02:52:52.778Z - normal: 1.9.1
-2018-06-08T02:52:52.908Z - normal: Finish init build-worker
-2018-06-08T02:52:52.908Z - normal: Start build-assets in worker
-2018-06-08T02:52:53.400Z - normal: Finish build-assets in worker
-2018-06-08T02:52:53.405Z - normal: Finish building assets
-2018-06-08T02:52:53.430Z - normal: Start building raw assets
-2018-06-08T02:52:53.433Z - normal: Start building plugin scripts
-2018-06-08T02:52:53.511Z - normal: Finish building raw assets
-2018-06-08T02:52:53.523Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-08T02:52:53.738Z - normal: Built to "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame" successfully
-2018-06-08T03:00:26.181Z - normal: Start building with options : {
+2018-06-08T08:01:20.569Z - normal: Building D:\wx\wchat_gamedemo\start_project
+2018-06-08T08:01:20.569Z - normal: Destination D:\wx\wchat_gamedemo\start_project\build\wechatgame
+2018-06-08T08:01:21.015Z - normal: Delete D:\wx\wchat_gamedemo\start_project\build\wechatgame\**\*
+2018-06-08T08:01:23.984Z - normal: Compiled project javascript file successfully
+2018-06-08T08:01:23.984Z - normal: Start building assets
+2018-06-08T08:01:23.985Z - normal: Start spawn build-worker
+2018-06-08T08:01:25.071Z - normal: Finish spawn build-worker
+2018-06-08T08:01:25.071Z - normal: Start init build-worker
+2018-06-08T08:01:28.281Z - normal: 1.9.1
+2018-06-08T08:01:28.368Z - normal: Finish init build-worker
+2018-06-08T08:01:28.368Z - normal: Start build-assets in worker
+2018-06-08T08:01:28.831Z - normal: Finish build-assets in worker
+2018-06-08T08:01:28.846Z - normal: Finish building assets
+2018-06-08T08:01:28.865Z - normal: Start building raw assets
+2018-06-08T08:01:28.867Z - normal: Start building plugin scripts
+2018-06-08T08:01:28.901Z - normal: Finish building raw assets
+2018-06-08T08:01:28.911Z - normal: Generating main.js from D:\coco\CocosCreator\resources\static\build-templates\shares\main.js
+2018-06-08T08:01:29.190Z - normal: Built to "D:\wx\wchat_gamedemo\start_project\build\wechatgame" successfully
+2018-06-08T08:02:37.675Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-08T08:02:37.676Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-08T08:02:39.105Z - normal: Initializing...
+
+2018-06-08T08:02:39.152Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-08T08:02:39.207Z - normal: IDE server has started, listening on http://127.0.0.1:18999
+initialization finished
+
+2018-06-08T08:02:39.599Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 {\\\"code\\\":400003,\\\"error\\\":\\\"已存在相同 AppID 和 projectname 的项目（路径），请修改后重试\\\"}\"}"
+
+    at Socket.<anonymous> (D:\coco\CocosCreator\resources\app.asar\editor\core\wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-06-08T08:02:40.752Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-08T08:02:40.752Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-08T08:02:41.877Z - normal: Initializing...
+
+2018-06-08T08:02:41.910Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-08T08:02:42.960Z - normal: starting ide...
+
+2018-06-08T08:02:49.501Z - normal: IDE server has started, listening on http://127.0.0.1:26328
+
+2018-06-08T08:02:49.506Z - normal: initialization finished
+
+2018-06-08T08:02:49.950Z - error: StatusCodeError: 400 - "{\"code\":40000,\"error\":\"错误 {\\\"code\\\":400003,\\\"error\\\":\\\"已存在相同 AppID 和 projectname 的项目（路径），请修改后重试\\\"}\"}"
+
+    at Socket.<anonymous> (D:\coco\CocosCreator\resources\app.asar\editor\core\wechat-game.js:1:1302)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    at Pipe.onread (net.js:560:20)
+2018-06-08T08:03:56.329Z - normal: Start building with options : {
   "androidStudio": true,
   "apiLevel": "",
   "appABIs": [],
   "appKey": "",
   "appSecret": "",
-  "buildPath": "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build",
+  "buildPath": "D:\\wx\\wchat_gamedemo\\start_project\\build",
   "debug": false,
-  "dest": "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame",
+  "dest": "D:\\wx\\wchat_gamedemo\\start_project\\build\\wechatgame",
   "encryptJs": true,
   "excludeScenes": [],
   "excludedModules": [],
@@ -186,51 +224,47 @@
   "webOrientation": "auto",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
-    "appid": "wx4abff451d12d7e8d",
+    "appid": "wxea10d4566580374c",
     "isSubdomain": false,
     "orientation": "landscape",
     "subContext": "wx-open-data-project"
   },
   "xxteaKey": "b40993ae-fab6-4d",
   "zipCompressJs": true,
-  "project": "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project",
+  "project": "D:\\wx\\wchat_gamedemo\\start_project",
   "projectName": "start",
   "debugBuildWorker": false
 }
-2018-06-08T03:00:26.192Z - normal: Building /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project
-2018-06-08T03:00:26.193Z - normal: Destination /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame
-2018-06-08T03:00:26.196Z - normal: Delete /Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame/**/*
-2018-06-08T03:00:59.251Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7746
-2018-06-08T03:02:02.588Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7764
-2018-06-08T03:02:02.617Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7767
-2018-06-08T03:02:02.624Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7769
-2018-06-08T03:02:02.627Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7771
-2018-06-08T03:02:02.630Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7773
-2018-06-08T03:02:02.642Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7775
-2018-06-08T03:02:02.647Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7777
-2018-06-08T03:02:02.660Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7779
-2018-06-08T03:02:02.663Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7781
-2018-06-08T03:02:02.665Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7783
-2018-06-08T03:02:02.669Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:7785
-2018-06-08T03:02:06.519Z - normal: Compiled project javascript file successfully
-2018-06-08T03:02:06.520Z - normal: Start building assets
-2018-06-08T03:02:06.521Z - normal: Start spawn build-worker
-2018-06-08T03:02:07.779Z - normal: Finish spawn build-worker
-2018-06-08T03:02:07.779Z - normal: Start init build-worker
-2018-06-08T03:02:11.528Z - normal: 1.9.1
-2018-06-08T03:02:11.710Z - normal: Finish init build-worker
-2018-06-08T03:02:11.710Z - normal: Start build-assets in worker
-2018-06-08T03:02:12.502Z - normal: Finish build-assets in worker
-2018-06-08T03:02:12.523Z - normal: Finish building assets
-2018-06-08T03:02:12.540Z - normal: Start building raw assets
-2018-06-08T03:02:12.542Z - normal: Start building plugin scripts
-2018-06-08T03:02:12.632Z - normal: Finish building raw assets
-2018-06-08T03:02:12.641Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2018-06-08T03:02:12.872Z - normal: Built to "/Users/cxz/Desktop/shixun/wchat_gamedemo/start_project/build/wechatgame" successfully
-2018-06-08T03:08:07.083Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:14584
-2018-06-08T03:10:25.416Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:17100
-2018-06-08T03:10:30.462Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:17103
-2018-06-08T03:10:32.265Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:17106
-2018-06-08T03:12:21.566Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:18259
-2018-06-08T03:12:21.716Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:18261
-2018-06-08T03:12:21.740Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:18263
+2018-06-08T08:03:56.340Z - normal: Building D:\wx\wchat_gamedemo\start_project
+2018-06-08T08:03:56.340Z - normal: Destination D:\wx\wchat_gamedemo\start_project\build\wechatgame
+2018-06-08T08:03:56.342Z - normal: Delete D:\wx\wchat_gamedemo\start_project\build\wechatgame\**\*
+2018-06-08T08:04:58.357Z - normal: Compiled project javascript file successfully
+2018-06-08T08:04:58.359Z - normal: Start building assets
+2018-06-08T08:04:58.359Z - normal: Start spawn build-worker
+2018-06-08T08:04:59.434Z - normal: Finish spawn build-worker
+2018-06-08T08:04:59.434Z - normal: Start init build-worker
+2018-06-08T08:05:02.533Z - normal: 1.9.1
+2018-06-08T08:05:02.742Z - normal: Finish init build-worker
+2018-06-08T08:05:02.742Z - normal: Start build-assets in worker
+2018-06-08T08:05:03.194Z - normal: Finish build-assets in worker
+2018-06-08T08:05:03.204Z - normal: Finish building assets
+2018-06-08T08:05:03.250Z - normal: Start building raw assets
+2018-06-08T08:05:03.252Z - normal: Start building plugin scripts
+2018-06-08T08:05:03.429Z - normal: Finish building raw assets
+2018-06-08T08:05:03.436Z - normal: Generating main.js from D:\coco\CocosCreator\resources\static\build-templates\shares\main.js
+2018-06-08T08:05:03.647Z - normal: Built to "D:\wx\wchat_gamedemo\start_project\build\wechatgame" successfully
+2018-06-08T08:06:21.936Z - warn: 找不到微信开发程序版本信息路径 [D:\微信web开发者工具\package.nw\package.json]。
+2018-06-08T08:06:21.937Z - warn: 微信开发程序版本过低，不能享用所有功能，请尽快升级。
+2018-06-08T08:06:23.191Z - normal: Initializing...
+
+2018-06-08T08:06:23.235Z - normal: idePortFile: C:\Users\树宇\AppData\Local\微信web开发者工具\User Data\Default\.ide
+
+2018-06-08T08:06:24.281Z - normal: starting ide...
+
+2018-06-08T08:06:30.526Z - normal: IDE server has started, listening on http://127.0.0.1:41681
+
+2018-06-08T08:06:30.534Z - normal: initialization finished
+
+2018-06-08T08:06:30.982Z - normal: open IDE success
+
+2018-06-08T08:08:30.412Z - info: shutdown preview server

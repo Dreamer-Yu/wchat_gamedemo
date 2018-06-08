@@ -13,7 +13,7 @@ cc._RF.push(module, '9c36f/KQY1EGKmkAE4OkRH7', 'Game');
 // Learn life-cycle callbacks:
 //  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
 //  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
+var com = require("Common");
 cc.Class({
     extends: cc.Component,
 
@@ -142,6 +142,7 @@ cc.Class({
         this.timer += dt;
     },
     gameOver: function gameOver() {
+        com.score = this.score;
         this.player.stopAllActions(); //停止 player 节点的跳跃动作
         this.newgameover();
         // cc.director.loadScene('game');

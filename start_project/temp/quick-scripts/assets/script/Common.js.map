@@ -1,0 +1,1 @@
+{"version":3,"sources":["Common.js"],"names":["module","exports","score"],"mappings":";;;;;;AAAAA,OAAOC,OAAP,GAAiB;AACbC,WAAM;AADO,CAAjB","file":"Common.js","sourceRoot":"..\\..\\..\\..\\assets\\script","sourcesContent":["module.exports = {\r\n    score:0\r\n};"]}

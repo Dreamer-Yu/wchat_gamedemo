@@ -72,7 +72,7 @@ cc.Class({
     start: function start() {},
 
     unvis: function unvis() {
-        this.node.opacity = 0;
+        // this.node.opacity=0;
         //this.node.destroy();
     },
     update: function update(dt) {

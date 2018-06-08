@@ -15,6 +15,10 @@ cc.Class({
         items: {
             default: null,
             type: cc.Prefab
+        },
+        content:{
+            default:null,
+            type:cc.Node
         }
     },
 
@@ -29,13 +33,27 @@ cc.Class({
         for(var i= 0;i<data.length;i++){
             var nit = cc.instantiate(this.items);
             console.log(data[i]);
-            this.node.addChild(nit);
+            this.content.addChild(nit);
             nit.getComponent('ItemTemplate').init({
                 id: 1,
                 itemName: data[i].nickname,
             });
             
         }
+    },
+    showRankList:function(){
+        this.content.removeAllChildren();
+        let bb = this;
+        wx.getFriendCloudStorage({
+            keyList:["score"],
+            success:function(ugd){
+                let ddd = ugd.data;
+                //console.log("%o",ddd);
+                //console.log("%o",bb.gt);
+                bb.gt(ddd);
+                
+            }
+        });
     },
     start () {
         // wx.getFriendCloudStorage({
@@ -49,17 +67,7 @@ cc.Class({
         //     }
         // });
         //this.gt();
-        let bb = this;
-        wx.getFriendCloudStorage({
-            keyList:["score"],
-            success:function(ugd){
-                let ddd = ugd.data;
-                //console.log("%o",ddd);
-                //console.log("%o",bb.gt);
-                bb.gt(ddd);
-                
-            }
-        });
+        
     },
 
     // update (dt) {},

@@ -69,7 +69,7 @@ cc.Class({
         
     },
     unvis:function(){
-        this.node.opacity=0;
+        // this.node.opacity=0;
         //this.node.destroy();
     },
     update: function (dt) {

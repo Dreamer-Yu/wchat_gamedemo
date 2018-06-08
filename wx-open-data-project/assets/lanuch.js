@@ -3,7 +3,11 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        display: cc.Node
+        display: cc.Node,
+        ItemList:{
+            default:null,
+            type:cc.Node
+        }
     },
 
     start () {
@@ -20,7 +24,7 @@ cc.Class({
     },
 
     _show () {
-
+        this.ItemList.getComponent("ItemList").showRankList();
         console.log("111");
         let moveTo = cc.moveTo(0.5, 0, 73);
         this.display.runAction(moveTo);
