@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 348.25,
+                "height": 348,
                 "type": "panel",
                 "width": 204
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 335.75,
+                "height": 336,
                 "type": "panel",
                 "width": 204
               }
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 335.75,
+                    "height": 336,
                     "type": "panel",
                     "width": 508
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 335.75,
+                    "height": 336,
                     "type": "panel",
                     "width": 204
                   }
                 ],
-                "height": 335.75,
+                "height": 336,
                 "type": "dock-h",
                 "width": 715
               },
@@ -69,7 +69,7 @@
                   "console",
                   "timeline"
                 ],
-                "height": 348.25,
+                "height": 348,
                 "type": "panel",
                 "width": 715
               }
@@ -99,7 +99,8 @@
         "scene",
         "timeline"
       ]
-    }
+    },
+    "window-1528426285904": {}
   },
   "panels": {
     "sprite-editor": {
