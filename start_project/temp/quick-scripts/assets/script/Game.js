@@ -48,22 +48,6 @@ cc.Class({
             default: null,
             url: cc.AudioClip
         }
-
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -77,28 +61,33 @@ cc.Class({
         this.spawnNewStar();
         this.score = 0;
         this.node.on(cc.Node.EventType.TOUCH_START, function (touch, event) {
-            this.player.toux = touch.getLocation().x;
-            return true;
+            if (cc.isValid(this.player)) {
+                this.player.toux = touch.getLocation().x;
+                return true;
+            }
         }, this);
         this.node.on(cc.Node.EventType.TOUCH_MOVE, function (touch, event) {
             var locx = touch.getLocation().x;
-
-            // cc.log(this.player.acc)
-            if (locx > this.player.toux) {
-                this.player.getComponent('player').acc = 1;
-            } else if (locx < this.player.toux) {
-                this.player.getComponent('player').acc = -1;
-
-                // cc.log(this.player.getComponent('player').acc)
+            if (cc.isValid(this.player)) {
+                if (locx > this.player.toux) {
+                    this.player.getComponent('player').acc = 1;
+                } else if (locx < this.player.toux) {
+                    this.player.getComponent('player').acc = -1;
+                }
             }
         }, this);
         this.node.on(cc.Node.EventType.TOUCH_END, function (touch, event) {
             // var self=this;
-            this.player.getComponent('player').acc = 0;
+            if (cc.isValid(this.player)) {
+                this.player.getComponent('player').acc = 0;
+            }
         }, this);
     },
 
     spawnNewStar: function spawnNewStar() {
+        if (!cc.isValid(this.player)) {
+            return;
+        }
         // 使用给定的模板在场景中生成一个新节点
         var newStar = cc.instantiate(this.starPrefab);
         // 将新增的节点添加到 Canvas 节点下面
@@ -130,7 +119,7 @@ cc.Class({
         newgame.setPosition(0, 100);
         newgame.getComponent('gameover').game = this;
         newgame.getComponent('gameover').getScore();
-        this.player.getComponent("player").unvis();
+        this.player.destroy();
     },
     update: function update(dt) {
         // 每帧更新计时器，超过限度还没有生成新的星星
@@ -145,7 +134,6 @@ cc.Class({
         com.score = this.score;
         this.player.stopAllActions(); //停止 player 节点的跳跃动作
         this.newgameover();
-        // cc.director.loadScene('game');
     },
     gainScore: function gainScore() {
         this.score += 1;
