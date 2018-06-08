@@ -25,14 +25,15 @@ cc.Class({
     },
 
     onClick () {
+        let self = this;
         wx.setUserCloudStorage({
             KVDataList:[{key:"score",value:"123"}],
             success:function(){
                 console.log("set success");
-                this._isShow = !this._isShow;
+                self._isShow = !self._isShow;
                 // 发消息给子域
                 wx.postMessage({
-                    message: this._isShow ? 'Show' : 'Hide'
+                    message: self._isShow ? 'Show' : 'Hide'
                 })
             }
         });

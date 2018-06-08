@@ -21,17 +21,7 @@ cc.Class({
     // LIFE-CYCLE CALLBACKS:
 
     onLoad () {
-        let bb = this;
-        wx.getFriendCloudStorage({
-            keyList:["score"],
-            success:function(ugd){
-                let ddd = ugd.data;
-                //console.log("%o",ddd);
-                //console.log("%o",bb.gt);
-                bb.gt(ddd);
-                
-            }
-        });
+        
         
     },
     gt: function (data){
@@ -59,6 +49,17 @@ cc.Class({
         //     }
         // });
         //this.gt();
+        let bb = this;
+        wx.getFriendCloudStorage({
+            keyList:["score"],
+            success:function(ugd){
+                let ddd = ugd.data;
+                //console.log("%o",ddd);
+                //console.log("%o",bb.gt);
+                bb.gt(ddd);
+                
+            }
+        });
     },
 
     // update (dt) {},
